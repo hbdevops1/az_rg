@@ -5,8 +5,6 @@
 
 
 
- 
-
 locals {
    env_designation = {
              for name, count in var.name_counts : name => [
