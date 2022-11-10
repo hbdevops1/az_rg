@@ -1,5 +1,8 @@
 
-
+ # check if the the nameing convention exists
+ # if not create go forward and create
+ # if the name does not exists then pull the whole string up to the last two or one character
+  
 
 resource "azurerm_resource_group" "rg-wkspc" {
   count = 1
